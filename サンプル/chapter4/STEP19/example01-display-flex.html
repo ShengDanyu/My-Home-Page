@@ -1,0 +1,49 @@
+<!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+演習で力のつくHTML/CCCコーディングの教科書、SBクリエイティブ、2015
+第4章STEP19 ２段組のレイアウトにする
+>フレキシブルボックスレイアウト：display:flex
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>フレキシブルボックスレイアウト</title>
+	<style>
+		nav,main,aside {
+			border-radius: 10px;
+			text-align: center;
+			line-height: 400px;
+			vertical-align: middle;
+		}
+		nav {
+			width: 150px;
+			height: 400px;
+			background-color: lightblue;
+		}
+		main {
+			background-color: orange;
+			width: 500px;
+			height: 400px;
+		}
+		aside {
+			width: 200px;
+			height: 400px;
+			background-color: lightpink;
+		}
+		div#content { display: flex; display: -webkit-flex; }
+	</style>
+</head>
+<body>
+<div id="content">
+	<nav>
+		nav
+	</nav>
+	<main>
+		main
+	</main>
+	<aside>
+		aside
+	</aside>
+</div>
+</body>
+</html>

@@ -1,0 +1,93 @@
+body {
+	font-family: sans-serif;
+}
+a,span {
+	text-decoration: none;
+	color: gray;
+}
+a:hover,span:hover {
+	color: orange;
+}
+header {
+	margin: 30px 0;
+}
+header h1 {
+	width: 800px;
+	font-size: 1.5em;
+	text-align: center;
+}
+body > h1 {
+	clear: both;
+	width: 770px;
+	margin-top: 40px;
+	padding: 10px 10px 10px 15px;
+	background-color: skyblue;
+	color: white;
+	font-size: 1.3em;
+}
+h2 {
+	clear: both;
+	padding-left: 15px;
+	font-size: 1.3em;
+}
+dl {
+	width: 750px;
+	height: 28px;
+	margin: 20px 0px 20px 40px;
+	border-bottom: 1px solid gray;
+	font-size: 0.9em;
+}
+dt::before {
+	content: "▶ ";
+	color: skyblue;
+}
+dt {
+	float: left;
+	width: 710px;
+	margin: 4px 0;
+}
+dd {
+	margin: 0;
+}
+dd:nth-of-type(1) {
+	float: right;
+	width: 40px;
+	text-align: right;
+}
+p.totop {
+	clear: both;
+	margin: 0;
+	width: 790px;
+	line-height: 1;
+	text-align: right;
+	color: blue;
+	font-size: 0.8em;
+}
+nav {
+	padding: 10px 30px 30px 30px;
+	width: 730px;
+	border: 1px solid grey;
+	border-radius: 5px;
+}
+nav h1 {
+	margin:0 0 20px 0;
+	font-size: 1.2em;
+	text-align: center;
+	color: dodgerblue;
+}
+a.scroll {
+	color: blue;
+	font-size: 0.8em;
+}
+a.top {
+	display: inline-block;
+	margin: 4px;
+	width: 97px;
+	background-color: lightcyan;
+	border: 1px solid gray;
+	border-radius: 3px;
+	padding: 5px;
+	color: royalblue;
+	font-weight: bold;
+	text-align: center;
+}

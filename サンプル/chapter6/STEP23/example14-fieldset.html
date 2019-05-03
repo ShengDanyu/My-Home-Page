@@ -1,0 +1,48 @@
+<!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+演習で力のつくHTML/CCCコーディングの教科書、SBクリエイティブ、2015
+第6章STEP23 フォームの基本
+>コントロールのグループ化：fieldset,legend
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>簡単なフォームの例</title>
+	<style type="text/css">
+		h1 { font-size: 1.5em; }
+		h2 { font-size: 1.2em; border-left: 6px solid skyblue; padding-left:10px; }
+	</style>
+</head>
+<body>
+<form method="post" action="mailto:iso@cosmos.co.jp?Subject=アンケート">
+	<h1>宇宙旅行アンケート調査</h1>
+	<fieldset>
+		<legend>個人情報</legend>
+		<label for="username">氏名：</label>
+		<input type="text" id="username" name="username">
+		<label for="address">住所：</label>
+		<input type="text" id="address" name="address">
+	</fieldset>
+	<fieldset>
+		<legend>アンケート内容</legend>
+		<h2>宇宙旅行に行ってみたいですか？</h2>
+		<p>
+		<input type="radio" name="wish" value="positively" id="wishans1">
+		<label for="wishans1">ぜひ行ってみたい</label><br>
+		<input type="radio" name="wish" value="little" id="wishans2">
+		<label for="wishans2">やや行ってみたい</label><br>
+		<input type="radio" name="wish" value="less" id="wishans3">
+		<label for="wishans3">あまり行きたいと思わない</label><br>
+		<input type="radio" name="wish" value="no" id="wishans4">
+		<label for="wishans4">絶対行きたくない</label>
+		</p>
+		<h2>宇宙旅行に行きたい天体は?</h2>
+		<p><input type="text" name="place" id="place"></p>
+	</fieldset>
+	<p>
+		<input type="submit" value="送信">
+		<input type="reset" value="取消">
+	</p>
+</form>
+</body>
+</html>

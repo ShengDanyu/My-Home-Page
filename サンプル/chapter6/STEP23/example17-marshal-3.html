@@ -1,0 +1,28 @@
+<!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+演習で力のつくHTML/CCCコーディングの教科書、SBクリエイティブ、2015
+第6章STEP23 フォームの基本
+>フォームの整列：定義型リストによる方法
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>簡単なフォームの例</title>
+	<style type="text/css">
+		dl { margin: 6px 0; }
+		dt { font-size: 0.8em; line-height:1.1; padding-left: 2px;}
+		dd { margin: 0; line-height: 1.1;}
+	</style>
+</head>
+<body>
+<form method="post" action="mailto:iso@cosmos.co.jp?Subject=個人情報">
+	<dl>
+		<dt><label for="username">お名前</label></dt>
+		<dd><input type="text" id="username" name="username"><dd>
+	</dl><dl>
+		<dt><label for="address">住所</label></dt>
+		<dd><input type="text" id="address" name="password"></dd>
+	</dl>
+</form>
+</body>
+</html>

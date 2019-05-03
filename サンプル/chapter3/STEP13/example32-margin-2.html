@@ -1,0 +1,34 @@
+<!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+演習で力のつくHTML/CCCコーディングの教科書、SBクリエイティブ、2015
+第3章STEP13 ボックス設定の基本
+>ブロックボックスの設定：マージンの設定：margin（１）
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>月の光</title>
+	<style>
+		@import url("moon_style.css");
+		header { border: 2px solid blue; }
+		h1,nav {
+			border: 2px solid red;
+			margin: 20px;	/* 上下左右を20px	*/
+		}
+	</style>
+</head>
+<body>
+<!-- コンテナ -->
+<div id="container">
+	<!-- ヘッダー -->
+	<header>
+		<h1>月の光</h1>
+		<!-- パンくずリスト -->
+		<nav>
+			<a href="./index.html">トップページ</a> &gt;
+			<a href="./moon.html">月</a> &gt; 月の光
+		</nav>
+	</header>
+</div>
+</body>
+</html>

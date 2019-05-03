@@ -1,0 +1,65 @@
+<!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+演習で力のつくHTML/CCCコーディングの教科書、SBクリエイティブ、2015
+第4章STEP19 ２段組のレイアウトにする
+>Holly Grailレイアウト
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>Holly Grailレイアウト</title>
+	<style>
+		#container > main,
+		#container > nav,
+		#container > aside,
+		header, footer {
+			margin: 4px;
+			padding: 8px;
+			border: 1px solid #777;
+			border-radius: 8px;
+			font-size: 1.5em;
+		}
+		#container {
+			min-width: 826px;
+			min-height: 300px;
+			display:         flex;
+			display: -webkit-flex;
+		}
+		#container > main {
+			background-color: orange;
+			        flex: 1 1 300px;
+			-webkit-flex: 1 1 300px;
+			        order: 2;
+			-webkit-order: 2;
+		}
+		#container > nav {
+			background-color: lightblue;
+			        flex: 0 0 150px;
+			-webkit-flex: 0 0 150px;
+			        order: 1;
+			-webkit-order: 1;
+		}
+		#container > aside {
+			background-color: lightpink;
+			        flex: 0 0 200px;
+			-webkit-flex: 0 0 200px;
+			        order: 3;
+			-webkit-order: 3;
+		}
+		header, footer {
+			background-color: lightgreen;
+			min-width: 800px;
+			min-height: 60px;
+		}
+	</style>
+</head>
+<body>
+<header>header</header>
+<div id="container">
+	<main>main</main>
+	<nav>nav</nav>
+	<aside>aside</aside>
+</div>
+<footer>footer</footer>
+</body>
+</html>

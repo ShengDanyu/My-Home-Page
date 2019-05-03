@@ -1,0 +1,8 @@
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+演習で力のつくHTML/CCCコーディングの教科書、SBクリエイティブ、2015
+第5章STEP21 テーブルを作るHTML要素
+>リスト5-2：table_style.css
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+table { border: 2px solid red; margin: 0 auto; }
+th { border: 2px solid green; }
+td { border: 2px solid blue; }

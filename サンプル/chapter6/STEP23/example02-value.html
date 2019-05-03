@@ -1,0 +1,34 @@
+<!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+演習で力のつくHTML/CCCコーディングの教科書、SBクリエイティブ、2015
+第6章STEP23 フォームの基本
+>フォームの内容を作る：１行のテキストボックスを作る：valued属性
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>簡単なフォームの例</title>
+	<style type="text/css">
+		h1 { font-size: 1.5em; }
+		h2 { font-size: 1.2em; border-left: 6px solid skyblue; padding-left:10px; }
+	</style>
+</head>
+<body>
+	<form method="post" action="mailto:iso@cosmos.co.jp?Subject=アンケート">
+		<h1>宇宙旅行アンケート調査</h1>
+		<h2>宇宙旅行に行ってみたいですか？</h2><p>
+			<input type="radio" name="wish" value="positively">ぜひ行ってみたい<br>
+			<input type="radio" name="wish" value="little">やや行ってみたい<br>
+			<input type="radio" name="wish" value="less">あまり行きたいと思わない<br>
+			<input type="radio" name="wish" value="no">絶対行きたくない
+		</p>
+		<h2>宇宙旅行に行きたい天体は？</h2><p>
+			<input type="text" name="place" value="アンドロメダ銀河">
+		</p>
+		<p>
+			<input type="submit" value="送信">
+			<input type="reset" value="取消">
+		</p>
+	</form>
+</body>
+</html>

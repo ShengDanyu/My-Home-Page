@@ -1,0 +1,29 @@
+<!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+演習で力のつくHTML/CCCコーディングの教科書、SBクリエイティブ、2015
+第5章STEP21 テーブルを作るHTML要素
+>セルを複数列・複数行にまたがるように拡張す
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>セルの拡張</title>
+	<style>
+		td,th { background-color: lightgreen; padding: 5px; }
+	</style>
+</head>
+<body>
+	<table>
+		<tbody>
+			<tr><th colspan="2">小惑星帯と準惑星</th></tr>
+			<tr><th rowspan="2">小惑星帯</th><td>アステロイドベルト</td></tr>
+			<tr><td>カイパーベルト</td></tr>
+			<tr><th rowspan="5">準惑星</th><td>ケレス</td></tr>
+			<tr><td>冥王星</td></tr>
+			<tr><td>ハウメア</td></tr>
+			<tr><td>マケマケ</td></tr>
+			<tr><td>エリス</td></tr>
+		</tbody>
+	</table>
+</body>
+</html>

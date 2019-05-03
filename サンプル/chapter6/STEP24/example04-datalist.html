@@ -1,0 +1,25 @@
+<!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+演習で力のつくHTML/CCCコーディングの教科書、SBクリエイティブ、2015
+第6章STEP24 いろいろなコントロール
+>その他のフォーム関連要素：入力候補を表示する［ datalist ］
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="UTF-8">
+		<title>datalist</title>
+	</head>
+<body>
+	<form method="post" action="mailto:iso@cosmos.co.jp?Subject=アンケート">
+		<p>
+			<label>好きなフルーツ：<input type="text" name="flute" list="flutes"></label>
+			<datalist id="flutes">
+				<option value="apple"></option>
+				<option value="peach"></option>
+				<option value="orange"></option>
+				<option value="pineapple"></option>
+			</datalist>
+		</p>
+	</form>
+</body>
+</html>

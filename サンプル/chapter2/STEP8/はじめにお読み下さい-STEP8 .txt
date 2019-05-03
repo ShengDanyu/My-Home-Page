@@ -1,0 +1,11 @@
+演習で力のつくHTML/CSSの教科書、2015年ソフトバンククリエイティブ
+［第２章STEP8］
+
+サンプルを利用する前に次のことを行って下さい。
+・［素材データ］フォルダ内の［映像音声］フォルダの中の次のファイルを、［STEP8］フォルダの中の［movies］フォルダの中にコピーします。
+	moonlight_sonata.mp4
+	moonlight_sonata.ogv
+	moonlight_sonata.webm
+	soru.mp3
+	soru.ogv
+	soru.webm

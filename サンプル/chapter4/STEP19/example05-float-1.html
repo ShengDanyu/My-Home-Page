@@ -1,0 +1,49 @@
+<!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+演習で力のつくHTML/CCCコーディングの教科書、SBクリエイティブ、2015
+第4章STEP19 ２段組のレイアウトにする
+>floatプロパティによる段組の方法：幅の固定された２段組
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>floatによる段組み</title>
+	<style>
+		div#container {
+			width: 760px;
+		}
+		header {
+			background-color: limegreen; padding: 10px; border-radius: 7px;
+			margin-bottom: 10px;
+		}
+		nav {
+			background-color: lightblue; padding: 10px; border-radius: 7px;
+			width:145px; margin-bottom: 10px; float: left;
+		}
+		main {
+			background-color: orange; padding: 10px; border-radius: 7px;
+			width: 555px; margin-bottom: 10px; float: right;
+		}
+		footer {
+			background-color: deepskyblue; padding: 10px; border-radius: 7px;
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<div id="container">
+		<header><h1>header</h1></header>
+		<nav>
+			<ul>
+				<li><a href="link1.html">リンク1</a></li>
+				<li><a href="link2.htm2">リンク2</a></li>
+				<li><a href="link3.htm3">リンク3</a></li>
+			</ul>
+		</nav>
+		<main>
+			<p>content</p><p>content</p><p>content</p><p>content</p>
+		</main>
+		<footer><p>footer</p></footer>
+	</div>
+<body>
+</html>

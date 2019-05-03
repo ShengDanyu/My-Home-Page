@@ -1,0 +1,32 @@
+<!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+演習で力のつくHTML/CCCコーディングの教科書、SBクリエイティブ、2015
+第5章STEP21 テーブルを作るHTML要素
+>テーブルを構成する要素：列をグループ化する：colgroup
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>colgroup</title>
+	<style>
+		colgroup:nth-child(2n) { background-color: lightpink; }
+	</style>
+</head>
+<body>
+<table>
+	<colgroup span="1"></colgroup>
+	<colgroup span="2"></colgroup>
+	<colgroup span="1"></colgroup>
+	<thead>
+		<tr><th>n</th><th>n^2</th><th>2^n</th><th>an*bn</th></tr>
+	</thead>
+	<tbody>
+		<tr><td>1</td><td>1</td><td>2</td><td>2</td></tr>
+		<tr><td>2</td><td>4</td><td>4</td><td>16</td></tr>
+		<tr><td>3</td><td>9</td><td>8</td><td>72</td></tr>
+		<tr><td>4</td><td>16</td><td>16</td><td>256</td></tr>
+		<tr><td>5</td><td>25</td><td>32</td><td>800</td></tr>
+	</tbody>
+</table>
+</body>
+</html>

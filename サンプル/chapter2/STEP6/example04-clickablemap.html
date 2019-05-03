@@ -1,0 +1,20 @@
+<!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+演習で力のつくHTML/CCCコーディングの教科書、SBクリエイティブ、2015
+第２章STEP6 リンクを設定する
+>クリッカブルマップ
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>月の光</title>
+</head>
+<body>
+	<img src="./images/solar_sys.jpg" alt="太陽系" usemap="solar" width="600" height="400">
+	<map name="solar">
+		<area shape="rect" coords="20,20,80,400" href="./images/sun.jpg" alt="太陽">
+		<area shape="circle" coords="288,160,36" href="./images/jupiter.jpg" alt="木星">
+		<area shape="poly" coords="492,176,532,176,512,136" href="./images/neptune.jpg" alt="海王星">
+	</map>
+</body>
+</html>

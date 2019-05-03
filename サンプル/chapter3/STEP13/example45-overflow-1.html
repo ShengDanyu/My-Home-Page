@@ -1,0 +1,33 @@
+<!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+演習で力のつくHTML/CCCコーディングの教科書、SBクリエイティブ、2015
+第3章STEP13 ボックス設定の基本
+>ブロックボックスの配置：オーバーフローした場合の表示設定（１）
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>月の光</title>
+	<style>
+		section {
+			padding: 35px; border: 2px solid blue;
+			background-clip: content-box; background-color: antiquewhite; }
+		h2 {
+			margin: 30px; padding: 15px; border: 2px solid green;
+			background-color: lightgreen;
+		}
+		p {
+			margin: 30px; padding: 15px; border: 2px solid red;
+			background-color: mistyrose;
+		}
+		p#first	{ height: 50px; }
+	</style>
+</head>
+<body>
+	<section>
+		<h2>月の光について</h2>
+		<p id="first">月の光は太陽からの光が月の表面に反射して地球に届いたものです。月の光は古くから神秘的なものととらえられてきました。芸術や文学の作品で月をモチーフにしたものがたくさんあります。</p>
+		<p id="second">月の明るさは月齢によって大きく変化します。最も明るいのは満月のときでおよそ0.2ルクスです。これは全天で太陽に次ぐ明るさで、太陽の50万分の1、金星の1500倍の明るさです。</p>
+	</section>
+</body>
+</html>

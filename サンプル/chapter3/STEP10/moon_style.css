@@ -1,0 +1,17 @@
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+演習で力のつくHTML/CCCコーディングの教科書、SBクリエイティブ、2015
+第3章STEP10 スタイルの適用方法
+>リスト3-2：moon_style.css
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+body {
+	background-color: #ffffcc;
+}
+header h1 {
+	font-size: 1.8em;
+	font-family: serif;
+}
+section h2 {
+	font-size: 1.1em;
+	font-family: sans-serif;
+	color: darkblue;
+}

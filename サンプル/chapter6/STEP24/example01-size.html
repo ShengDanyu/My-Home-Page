@@ -1,0 +1,28 @@
+<!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+演習で力のつくHTML/CCCコーディングの教科書、SBクリエイティブ、2015
+第6章STEP24 いろいろなコントロール
+>メニューの選択肢を作る：メニューの表示行数を指定する［ size属性 ］
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="UTF-8">
+		<title>いろいろなコントロール</title>
+		<link rel="stylesheet" href="form_style.css" type="text/css">
+	</head>
+<body>
+	<form method="post" action="mailto:iso@cosmos.co.jp?Subject=アンケート">
+		<dl>
+			<dt><label for="bloodtype">血液型</label></dt>
+			<dd>
+				<select name="bloodtype" id="bloodtype" size="2">
+					<option>A型</option>
+					<option>B型</option>
+					<option>O型</option>
+					<option>AB型</option>
+				</select>
+			</dd>
+		</dl>
+	</form>
+</body>
+</html>

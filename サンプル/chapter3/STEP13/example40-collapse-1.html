@@ -1,0 +1,38 @@
+<!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+演習で力のつくHTML/CCCコーディングの教科書、SBクリエイティブ、2015
+第3章STEP13 ボックス設定の基本
+>ブロックボックスの配置：ブロックボックスの配置
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>例1</title>
+	<style>
+		section {
+			padding: 35px; border: 2px solid blue;
+			background-clip: content-box; background-color: antiquewhite; }
+		div#first {
+			margin: 30px; padding: 15px; border: 2px solid red;
+			background-color: mistyrose;
+		}
+		div#second {
+			margin: 30px; padding: 15px; border: 2px solid green;
+			background-color: lightgreen;
+		}
+		div#third {
+			margin: 30px; padding: 15px; border: 2px solid blue;
+			background-color: lightblue;
+		}
+		div#first	{ margin: 30px; padding: 15px; border: 2px solid red; }
+		div#second	{ margin: 40px 30px 30px 30px; padding: 15px; border: 2px solid green; }
+	</style>
+</head>
+<body>
+	<section>
+		<div id="first">ブロックボックス1</div>
+		<div id="second">ブロックボックス2</div>
+		<div id="third">ブロックボックス3</div>
+	</section>
+</body>
+</html>

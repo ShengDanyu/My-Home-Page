@@ -1,0 +1,18 @@
+<!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+演習で力のつくHTML/CCCコーディングの教科書、SBクリエイティブ、2015
+第6章STEP24 いろいろなコントロール
+>その他のフォーム関連要素：フォームの計算結果を表示する［ output ］
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="UTF-8">
+		<title>output</title>
+	</head>
+<body>
+	<form>
+		<input	type="range" name="level" id="level" onchange="document.getElementById('result').value=this.value;">
+		<output id="result" for="level">50</output>
+	</form>
+</body>
+</html>
